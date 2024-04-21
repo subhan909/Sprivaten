@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero-sec {
+    background: url("/assets/images/background.png");
+    height: 680px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar h1 {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home {
+    text-decoration: underline;
+}
+
+ul {
+    display: flex;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+a {
+    font-size: 20px;
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+}
+
+.mainicon {
+    margin-left: 10px;
+}
+
+.icon {
+    margin-left: 20px;
+}
+
+.icon1 {
+    margin-left: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.text1 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.button1 {
+    width: 154px;
+    height: 48px;
+    background-color: rgb(0, 153, 158);
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 200px;
+    border: 1px solid rgb(0, 153, 158);
+    color: white;
+}
+
+.button1:hover {
+    border: 1px solid rgb(0, 153, 158);
+    color: rgb(0, 153, 158);
+    background-color: transparent;
+}
+
+.button2 {
+    width: 154px;
+    height: 48px;
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 200px;
+    border: 1px solid rgb(0, 153, 158);
+    color: rgb(0, 153, 158);
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.button2:hover {
+    border: 1px solid rgb(0, 153, 158);
+    color: white;
+    background-color: rgb(0, 153, 158);
+}
+
+.form {
+    width: 300px;
+    height: 520px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.book {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.form p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.form input {
+    width: 80%;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.save {
+    width: 84%;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: goldenrod;
+    color: white;
+    font-size: 18px;
+    border: 1px solid goldenrod;
+}
+
+.save:hover {
+    background-color: transparent;
+    color: rgb(73, 73, 73);
+    border: 1px solid rgb(73, 73, 73);
+}
+
+.why {
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.resolve {
+    text-align: center;
+    color: rgb(73, 73, 73);
+    margin-top: 20px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card1 {
+    width: 300px;
+    height: 370px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid skyblue;
+}
+
+.box {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(158, 197, 212);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 p {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.card1 a {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: goldenrod;
+}
+
+.speed {
+    margin-top: 100px;
+    font-size: 50px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.business .try {
+    text-align: center;
+    color: rgb(73, 73, 73);
+    margin-top: 20px;
+}
+
+.img1 {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    bottom: 70px;
+    right: 365px;
+}
+
+.color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    height: 200px;
+    position: sticky;
+    background-color: rgb(14 76 88);
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 img {
+    margin-right: 10px;
+}
+
+.clients {
+    height: 620px;
+    background: rgba(243, 243, 243, 1);
+}
+
+.clientsay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientsay .what {
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.78);
+}
+
+.pro {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.card2 {
+    width: 327px;
+    height: 244px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-left: 40px;
+}
+
+.card2 img {
+    padding: 20px;
+}
+
+.help {
+    margin-left: 20px;
+}
+
+.our {
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.our1 {
+    text-align: center;
+    color: rgb(73, 73, 73);
+    margin-top: 20px;
+}
+.box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card3 {
+    width: 328px;
+    height: 373px;
+    border: 1px solid rgba(238, 238, 238, 1);
+}
+.card3 h4{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.781);
+    font-size: 18px;
+    margin-top: 30px;
+}
+.card3 .ceo{
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+    color: rgb(73, 73, 73);
+}
+.card3 .div{
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.contact{
+    background: url("/assets/images/best.png");
+    height: 520px;
+    margin-top: 30px;
+    background-size: cover;
+}
+h6{
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.781);
+    margin-top: 50px; 
+}
+.make{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.781);
+}
+.an{
+    display: flex;
+    margin-left: 180px;
+}
+.contact input{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #BDBDBD;
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+    
+
+}
+#message{
+    width: 535px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 20px;
+}
+h5{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.781);
+}
+.aj p{
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(73, 73, 73);
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.aj{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+}
+.contactus{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid goldenrod;
+    background-color: goldenrod;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+.contactus:hover {
+    background-color: transparent;
+    color: rgb(73, 73, 73);
+    border: 1px solid rgb(73, 73, 73);
+}
+.bookbutton{
+    width: 150px;
+    height: 55px;
+    background-color: goldenrod;
+    color: white;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center; 
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.bookbutton:hover {
+    background-color: transparent;
+    color: rgb(73, 73, 73);
+    border: 1px solid rgb(73, 73, 73);
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: pink;
+}
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 20px;
+}
